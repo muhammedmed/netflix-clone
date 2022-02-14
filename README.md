@@ -1,7 +1,7 @@
 # Netflix Clone ReactJS
 
 ## Live Site Demo 
-Demo: [Link](http://google.com)
+Demo: [Netflix Clone React](https://react-netflixclonee.netlify.app/)
 
 ## API's
 
