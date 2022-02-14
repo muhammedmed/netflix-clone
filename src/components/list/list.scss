@@ -1,0 +1,48 @@
+.list {
+  margin-top: 15px;
+  color: white;
+  margin-left: 20px;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .list__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .rec.rec-arrow {
+      color:rgb(177, 177, 177);
+      &:hover{
+         color:white;
+      }
+  }
+  .lcUbOd{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1px 3px rgb(255, 255, 255);
+
+  }
+  .eaptOe {
+    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.5);
+  }
+    .list__poster {
+      max-height: 310px;
+      object-fit: contain;
+      transition: transform 450ms;
+      cursor: pointer;
+      border-radius: 5px;
+
+      &:hover {
+        transform: scale(1.2);
+        opacity: 1;
+        border: 1px solid white;
+      }
+    }
+  }
+}

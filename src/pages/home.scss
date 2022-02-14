@@ -1,0 +1,17 @@
+.home{
+  
+    .full{
+      width: 100%;
+      height: 100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  
+      h1{
+        color:#fff;
+        margin-left:15px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
