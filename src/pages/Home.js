@@ -12,7 +12,7 @@ function Home() {
    setLoading(true)
    setTimeout(() =>{
     setLoading(false)
-   },2800)
+   },2500)
  },[])
 
 
